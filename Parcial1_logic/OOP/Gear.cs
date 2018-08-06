@@ -1,6 +1,7 @@
 ﻿namespace Parcial1_logic.OOP
 {
-    public class Gear
+    public abstract class Gear
     {
+        public float ParamMod { get; protected set; }
     }
 }

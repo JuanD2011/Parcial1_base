@@ -1,6 +1,6 @@
 ﻿namespace Parcial1_logic.OOP
 {
-    public class Armor
+    public class Armor: Gear
     {
     }
 }
