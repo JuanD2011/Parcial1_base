@@ -1,0 +1,15 @@
+Feedback:
+
+1. Estructura de datos (1.88/2.5) 
+ * Las pruebas de las funciones presentadas pasan correctamente, excepto para RepeatedTimesInDictionary())
+ * Sortearon la restricción de ReplaceInQueue() usando la extensión provista ToList(). La solución es correcta, aunque no era necesario copiar los valores a una lista para después volverlos a encolar; mucho menos usar dos ciclos para esto.
+ * Funciona la solución de MixData(), pero no era necesario hacer una lógica de intercalado tan compleja.
+ * RepeatedTimesInDictionary() falla porque la función compara el Key de la entrada del diccionario, y no el Value como se pidió. Por todo lo demás, la solución era correcta. Al no satisfacer el enunciado, se asume incorrecta.
+ 
+2. OOP (2.0/2.5)
+ * Actor.cs no implementa correctamente la interfaz ICharacter.
+ * El valor del cap para Gear.ParamMod no está definido correctamente porque está como un valor quemado y lo define Hero.cs, no Gear.cs.
+ * En Hero.CurrentAtk no se inicializa la variable a retornar. Esto deriva en un error de compilación.
+ * El mismo problema del cap de Gear.ParamMod ocurre en Hero.CurrentDef
+ 
+Total: 3.88/5.0
